@@ -2,7 +2,11 @@ import java.util.Scanner;
 
 public class s3 {
     public static void main(String[] args) {
-        //ali -def ---->  adleif yapan program yazınız.
+        //klavyeden girilen 2 string'in uzunlukları aynı ise her stringin aynı indisinde olan karakteri diğer stringin yanına yazan
+        // ve sonucu ekrana yazan java kodunu yazınız.
+        //örnek:         str1             |           str2             |        sonuç
+        //              "ali"             |          "def"             |       "adleif"
+        //              "akif"            |          "emre"            |      "aekmirfe"
 
         Scanner read = new Scanner(System.in);
 
@@ -14,12 +18,7 @@ public class s3 {
         String sonuc = "";
         if (str1.length() == str2.length()) {
             for (int i = 0; i < str1.length(); i++) {
-                char harf1 = str1.charAt(i);
-                char harf2 = str2.charAt(i);
-                String harf3 = String.valueOf(harf1);
-                String harf4 = String.valueOf(harf2);
-
-                sonuc += harf3 + harf4;
+                sonuc += str1.chatAt(i) + ""+ str2.charAt(i);
             }
             System.out.println("Sonuc string: " + sonuc);
         }
