@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class s5 {
     public static void main(String[] args) {
-        //Klavyeden girilen bir sayı kadar adını ekrana yazdıran programı yazınız!
+        //Klavyeden girilen tamsayı kadar adınızı ekrana yazan java kodunu yazınız!.
         String ad = "Akif";
 
         Scanner read = new Scanner(System.in);
