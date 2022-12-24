@@ -7,7 +7,7 @@ public class s1 {
     public static void main(String[] args) {
 
         //soru1
-        int tToplam = 0, cToplam = 0, ucToplam = 0;
+        int bToplam = 0, iToplam = 0, uToplam = 0;
         Scanner read = new Scanner(System.in);
         System.out.print("1. sayıyı giriniz: ");
         int sayi1 = read.nextInt();
@@ -25,11 +25,11 @@ public class s1 {
         }
 
         for (int i = sayi1; i < sayi2; i++) {
-            if (i > 0 && i < 10) tToplam += i;
-            if (i >= 10 && i < 100) cToplam += i;
-            if (i >= 100 && i < 1000) ucToplam += i;
+            if (i > 0 && i < 10) bToplam += i;
+            if (i >= 10 && i < 100) iToplam += i;
+            if (i >= 100 && i < 1000) uToplam += i;
         }
-        System.out.println("Bir basamaklı sayıların toplamı: " + tToplam + ", İki basamaklı sayıların toplamı: "
-                + cToplam + ", Üç basamklı sayıların toplamı: " + ucToplam);
+        System.out.println("Bir basamaklı sayıların toplamı: " + bToplam + ", İki basamaklı sayıların toplamı: "
+                + iToplam + ", Üç basamklı sayıların toplamı: " + uToplam);
     }
 }
