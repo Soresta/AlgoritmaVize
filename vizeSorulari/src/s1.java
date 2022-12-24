@@ -26,8 +26,8 @@ public class s1 {
 
         for (int i = sayi1; i < sayi2; i++) {
             if (i > 0 && i < 10) tToplam += i;
-            if (i > 10 && i < 100) cToplam += i;
-            if (i > 100 && i < 1000) ucToplam += i;
+            if (i >= 10 && i < 100) cToplam += i;
+            if (i >= 100 && i < 1000) ucToplam += i;
         }
         System.out.println("Bir basamaklı sayıların toplamı: " + tToplam + ", İki basamaklı sayıların toplamı: "
                 + cToplam + ", Üç basamklı sayıların toplamı: " + ucToplam);
