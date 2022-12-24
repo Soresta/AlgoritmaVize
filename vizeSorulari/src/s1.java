@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class s1 {
-    //2 sayı arasında ki 1 basamaklı 2 basamklı ve üç basamaklı toplamlarını ayrı ayrı bulan program.
+    //Klavyeden girilen 2 tamsayı arasında ki bir basamaklı,iki basamaklı ve üç basamaklı sayıları ayrı ayrı toplayan ve sonucu ekrana yazdıran
+    //java kodunu yazınız.
+    
     public static void main(String[] args) {
 
         //soru1
