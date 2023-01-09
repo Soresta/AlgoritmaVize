@@ -7,9 +7,9 @@ public class s5 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        int[] dizi = new int[2];
+        int[] dizi = new int[10];
         int sayac = 0;
-        while (sayac < 2) {
+        while (sayac < 10) {
             boolean cond = true;
             int sayi = read.nextInt();
             if (sayi > 0)
@@ -22,7 +22,7 @@ public class s5 {
             }
         }
         int enb = dizi[0];
-        for (int i = 1; i < 2; i++) {
+        for (int i = 1; i < 10; i++) {
             if (dizi[i] > enb) enb = dizi[i];
         }
         System.out.println(enb);
